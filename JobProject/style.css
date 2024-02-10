@@ -1,0 +1,124 @@
+
+.horizontal-line {
+
+    width: 40%;
+    border-top: 1px solid GREY; /* Adjust the thickness and color as needed */
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  /* Style for the text in the center */
+  .centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white; /* optional: provide a background color */
+    padding: 10px; /* optional: adjust padding */
+    border-radius: 5px; /* optional: add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: pink; /* optional: add a shadow */
+   
+  }
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+}
+.container-content{
+    border: 1px solid black;
+    padding: 40px;
+}
+.box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    margin-top: 2%;
+}
+.box {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.box label {
+    margin-left: 10px; 
+}
+
+.price {
+    margin-left: 100px; 
+}
+.dropdown-row {
+    display: none; 
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px; 
+}
+.dropdown {
+    margin-right: 10px;
+}
+input[type="radio"] {
+    margin-right: 5px;
+}
+select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.discount {
+    margin-left: 20px;
+     background-color: pink;
+     color: white;
+     padding: 5px;
+}
+.price-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.strike-text {
+    text-decoration: line-through;
+    margin-left: 30%;
+}
+h1{
+    margin: 0%;
+}
+.size-color{
+    margin: 5%;
+    font-size: large;
+}
+.down{
+    display: flex;
+    justify-content: space-between;
+}
+.free-delivery{
+    margin-right: 100px;
+    background-color: pink;
+    color:white;
+    padding: 5px;
+    margin-top: 2%;
+}
+.total{
+    margin-top: 2%;
+}
+.add{
+    font-size: 30px;
+    margin-top: 2%;
+    background-color: pink;
+    color: white;
+    padding: 5px 100px;
+    border: none;
+    cursor: pointer;
+}
+.box-container.checked {
+    border: 2px solid pink;
+    border-radius: 5px;
+}
+@media(max-width:700px){
+    .add{
+        padding: 5px 10px;
+    }
+}
