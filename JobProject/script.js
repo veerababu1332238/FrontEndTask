@@ -7,11 +7,11 @@ radioButtons.forEach((radioButton, index) => {
         if (radioButton.checked) {
             boxContainers.forEach((container, i) => {
                 if (i === index) {
-                    container.classList.add('checked'); // Add checked class to the container
-                    dropdowns[i].style.display = 'grid'; // Show the corresponding dropdowns
+                    container.classList.add('checked'); 
+                    dropdowns[i].style.display = 'grid'; 
                 } else {
-                    container.classList.remove('checked'); // Remove checked class from other containers
-                    dropdowns[i].style.display = 'none'; // Hide other dropdowns
+                    container.classList.remove('checked'); 
+                    dropdowns[i].style.display = 'none'; 
                 }
             });
         }

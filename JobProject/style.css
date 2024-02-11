@@ -1,23 +1,22 @@
 
 .horizontal-line {
 
-    width: 40%;
-    border-top: 1px solid GREY; /* Adjust the thickness and color as needed */
+    width: 50%;
+    border-top: 1px solid GREY; 
     position: relative;
     margin: 0 auto;
   }
   
-  /* Style for the text in the center */
   .centered-text {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: white; /* optional: provide a background color */
-    padding: 10px; /* optional: adjust padding */
-    border-radius: 5px; /* optional: add rounded corners */
+    background-color: white; 
+    padding: 10px; 
+    border-radius: 5px; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    color: pink; /* optional: add a shadow */
+    color: pink;
    
   }
 .container {
@@ -120,5 +119,8 @@ h1{
 @media(max-width:700px){
     .add{
         padding: 5px 10px;
+    }
+    .horizontal-line{
+        width: 70%;
     }
 }
