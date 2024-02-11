@@ -123,4 +123,10 @@ h1{
     .horizontal-line{
         width: 70%;
     }
+    .price{
+        margin-left: 50px;
+    }
+    .free-delivery{
+        margin-right: 50px;
+    }
 }
